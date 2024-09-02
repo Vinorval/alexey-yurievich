@@ -17,7 +17,7 @@ $magenta: #d000c5;
 .header {
     z-index: -5;
     position: relative;
-  background: linear-gradient(#3800e7, #8a15ff);
+  background: linear-gradient(#82A973, #E6DC66);
   height: 100vh;
   font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
   font-family: "DM Mono", monospace;
@@ -60,7 +60,7 @@ h2 {
     height: 30em;
     width: 30em;
     border-radius: 30em;
-    background: linear-gradient(#3800e7, #8a15ff);
+    background: linear-gradient(#82A973, #E6DC66);
     align-self: flex-end;
     animation: gradient-fade 8s ease-in-out 3s infinite alternate;
 }
@@ -71,7 +71,7 @@ h2 {
     height: 10em;
     width: 10em;
     border-radius: 10em;
-    background: linear-gradient(#3800e7, #8a15ff);
+    background: linear-gradient(#82A973, #E6DC66);
     animation: gradient-fade-alt 6s ease-in-out 3s infinite alternate;
 }
 
@@ -95,7 +95,7 @@ h2 {
     height: 13em;
     opacity: 0.7;
     border-radius: 13em;
-    background: linear-gradient(#15e0ff, #8a15ff);
+    background: linear-gradient(#D2B068, #E6DC66);
     animation: rotation 7s linear infinite;
 }
 
@@ -105,7 +105,7 @@ h2 {
     width: 20em;
     height: 20em;
     border-radius: 20em;
-    background: linear-gradient(#d000c5, #8a15ff);
+    background: linear-gradient(#87AC72, #E6DC66);
     animation: rotation 7s linear infinite;
 }
 
@@ -134,7 +134,7 @@ h2 {
     height: 20em;
     width: 20em;
     border-radius: 20em;
-    background: linear-gradient(#15e0ff, #3800e7);
+    background: linear-gradient(#D2B068, #82A973);
   }
 
 .backdrop {
