@@ -1,6 +1,7 @@
 import React from "react";
 import Styles from "./AppHeader.module.css";
-import Navigation from "../app/navigation/Navigation.js";
+import Navigation from "../navigation/Navigation.js";
+import ButtonScroll from "../buttonScroll/ButtonScroll.js";
 
 const AppHeader = () => {
     return (
@@ -40,6 +41,7 @@ const AppHeader = () => {
                     </svg>
                 </div>
             </div>
+            <ButtonScroll />
         </header>
     );
 }

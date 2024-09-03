@@ -1,6 +1,6 @@
 import React from "react";
 import Styles from "./Navigation.module.css";
-import Logo1C from "../../../images/logo1C.svg";
+import Logo1C from "../../images/logo1C.svg";
 
 const Navigation = () => {
     return (
