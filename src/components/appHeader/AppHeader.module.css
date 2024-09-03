@@ -1,22 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;1,500&display=swap");
 
 .geoArrow {
-    fill: none;
-    stroke: #fff;
-    stroke-width: 2;
-    stroke-miterlimit: 10
+  fill: none;
+  stroke: #fff;
+  stroke-width: 2;
+  stroke-miterlimit: 10
 }
 
-/*$purple: #8a15ff;
-$blue: #3800e7;
-$ltblue: #15e0ff;
-$magenta: #d000c5;
-
-// This is an example of animations & svgs... I completely understand that the amount of absolute positioning in this file is insane... ;) <3*/
-
 .header {
-    z-index: -5;
-    position: relative;
+  z-index: -5;
+  position: relative;
   background: linear-gradient(#82A973, #E6DC66);
   height: 100vh;
   font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
@@ -48,65 +41,65 @@ h2 {
 
 .main:before,
 .main:after {
-    content: "";
-    display: block;
-    position: absolute;
-    z-index: -3;
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: -3;
 }
 
 .main:before {
-    right: 0;
-    bottom: -19em;
-    height: 30em;
-    width: 30em;
-    border-radius: 30em;
-    background: linear-gradient(#82A973, #E6DC66);
-    align-self: flex-end;
-    animation: gradient-fade 8s ease-in-out 3s infinite alternate;
+  right: 0;
+  bottom: -19em;
+  height: 30em;
+  width: 30em;
+  border-radius: 30em;
+  background: linear-gradient(#82A973, #E6DC66);
+  align-self: flex-end;
+  animation: gradient-fade 8s ease-in-out 3s infinite alternate;
 }
 
 .main:after {
-    top: 0;
-    left: 30em;
-    height: 10em;
-    width: 10em;
-    border-radius: 10em;
-    background: linear-gradient(#82A973, #E6DC66);
-    animation: gradient-fade-alt 6s ease-in-out 3s infinite alternate;
+  top: 0;
+  left: 30em;
+  height: 10em;
+  width: 10em;
+  border-radius: 10em;
+  background: linear-gradient(#82A973, #E6DC66);
+  animation: gradient-fade-alt 6s ease-in-out 3s infinite alternate;
 }
 
 .main__textWrapper {
-    position: relative;
-    padding: 2em;
+  position: relative;
+  padding: 2em;
 }
 
 .main__textWrapper:before,
 .main__textWrapper:after {
-    content: "";
-    display: block;
-    position: absolute;
+  content: "";
+  display: block;
+  position: absolute;
 }
 
 .main__textWrapper:before {
-    z-index: -1;
-    top: -3em;
-    right: -3em;
-    width: 13em;
-    height: 13em;
-    opacity: 0.7;
-    border-radius: 13em;
-    background: linear-gradient(#D2B068, #E6DC66);
-    animation: rotation 7s linear infinite;
+  z-index: -1;
+  top: -3em;
+  right: -3em;
+  width: 13em;
+  height: 13em;
+  opacity: 0.7;
+  border-radius: 13em;
+  background: linear-gradient(#D2B068, #E6DC66);
+  animation: rotation 7s linear infinite;
 }
 
 .main__textWrapper:after {
-    z-index: -1;
-    bottom: -20em;
-    width: 20em;
-    height: 20em;
-    border-radius: 20em;
-    background: linear-gradient(#87AC72, #E6DC66);
-    animation: rotation 7s linear infinite;
+  z-index: -1;
+  bottom: -20em;
+  width: 20em;
+  height: 20em;
+  border-radius: 20em;
+  background: linear-gradient(#87AC72, #E6DC66);
+  animation: rotation 7s linear infinite;
 }
 
 .arrow {
@@ -131,10 +124,10 @@ h2 {
 }
 
 .circle__ltblue {
-    height: 20em;
-    width: 20em;
-    border-radius: 20em;
-    background: linear-gradient(#D2B068, #82A973);
+  height: 20em;
+  width: 20em;
+  border-radius: 20em;
+  background: linear-gradient(#D2B068, #82A973);
   }
 
 .backdrop {
