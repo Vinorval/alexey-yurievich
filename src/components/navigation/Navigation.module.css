@@ -2,6 +2,7 @@
     position: absolute;
     top: 0;
     left: calc((100vw - 97vw) / 2);
+    z-index: 2000;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,6 +29,25 @@
     gap: 4px;
 }
 
+.link__namesList {
+    display: none;
+}
+
+.link:hover .link__namesList {
+    display: grid;
+    background-color: white;
+    border: #C2CA6A solid 3px;
+    border-radius: 6px;
+    padding: 16px;
+    gap: 10px;
+    position: absolute;
+    top: calc(100px);
+    color: black;
+    text-align: start;
+    list-style-type: none;
+    font-size: 0.8em;
+}
+
 .partner {
     display: flex;
     gap: 12px;
@@ -36,4 +56,8 @@
 
 .partner__logo {
     width: 80px;
+}
+
+.margin_none {
+    margin: 0;
 }
