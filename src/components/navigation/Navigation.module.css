@@ -23,6 +23,11 @@
     gap: 25px;
 }
 
+.link {
+    display: flex;
+    gap: 4px;
+}
+
 .partner {
     display: flex;
     gap: 12px;
