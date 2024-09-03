@@ -1,9 +1,11 @@
 import React from "react";
 import Styles from "./AppHeader.module.css";
+import Navigation from "../app/navigation/Navigation.js";
 
 const AppHeader = () => {
     return (
         <header className={Styles.header} >
+            <Navigation />
             <div className={`${Styles.arrow} ${Styles.arrow__top}`}>
                 <svg xmlns="http://www.w3.org/2000/svg" width="270.11" height="649.9" overflow="visible" className={Styles.geoArrow}>
                     <g className={`${Styles.itemTo} ${Styles.bounce_1}`}>
