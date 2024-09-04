@@ -26,7 +26,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 1.8em;
 }
 
 .main {
@@ -47,7 +47,7 @@ h2 {
   z-index: -3;
 }
 
-.main:before {
+/*.main:before {
   right: 0;
   bottom: -19em;
   height: 30em;
@@ -56,7 +56,7 @@ h2 {
   background: linear-gradient(#82A973, #E6DC66);
   align-self: flex-end;
   animation: gradient-fade 8s ease-in-out 3s infinite alternate;
-}
+}*/
 
 .main:after {
   top: 0;
@@ -128,7 +128,7 @@ h2 {
   width: 20em;
   border-radius: 20em;
   background: linear-gradient(#D2B068, #82A973);
-  }
+}
 
 .backdrop {
   position: absolute;
