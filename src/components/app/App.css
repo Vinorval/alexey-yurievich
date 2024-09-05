@@ -1,3 +1,11 @@
 .App {
   text-align: center;
+  display: grid;
+  gap: 50px;
+}
+
+.Footer {
+  height: 20px;
+  background-color: #D9D668;
+  width: 100%;
 }
