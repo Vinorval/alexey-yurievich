@@ -12,6 +12,7 @@
 
 .logo {
     font-size: 3em;
+    font-family: 'PT Sans Narrow';
 }
 
 .listLinks {
@@ -27,6 +28,7 @@
 .link {
     display: flex;
     gap: 4px;
+    font-size: 0.8em;
 }
 
 .link__namesList {
@@ -41,7 +43,7 @@
     padding: 16px;
     gap: 10px;
     position: absolute;
-    top: 85px;
+    top: 80px;
     color: black;
     text-align: start;
     list-style-type: none;
