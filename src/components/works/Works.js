@@ -6,27 +6,27 @@ const Works = () => {
         <section className={Styles.works} >
             <h2 className={Styles.works__title} >Примеры работ</h2>
             <ul className={Styles.company} >
-                <li className={Styles.companyName} >ООО “Название компании”</li>
-                <li className={Styles.companyName} >ООО “Название компании”</li>
-                <li className={Styles.companyName} >ООО “Название компании”</li>
-                <li className={Styles.companyName} >ООО “Название компании”</li>
-                <li className={Styles.companyName} >ООО “Название компании”</li>
+                <li className={Styles.company__name} >ООО “Название компании”</li>
+                <li className={Styles.company__name} >ООО “Название компании”</li>
+                <li className={Styles.company__name} >ООО “Название компании”</li>
+                <li className={Styles.company__name} >ООО “Название компании”</li>
+                <li className={Styles.company__name} >ООО “Название компании”</li>
             </ul>
             <div className={Styles.experience} >
                 <div className={Styles.work}>
                     <h3 className={Styles.work__name} >Задачи:</h3>
                     <ul className={Styles.work__list}>
-                        <li className={`${Styles.work__text} ${Styles.work__text_type_element}`} >что-то требуется сделать</li>
-                        <li className={`${Styles.work__text} ${Styles.work__text_type_element}`} >что-то требуется сделать</li>
-                        <li className={`${Styles.work__text} ${Styles.work__text_type_element}`} >что-то требуется сделать</li>
+                        <li className={Styles.work__text} >что-то требуется сделать</li>
+                        <li className={Styles.work__text} >что-то требуется сделать</li>
+                        <li className={Styles.work__text} >что-то требуется сделать</li>
                     </ul>
                 </div>
                 <div className={Styles.work}>
                     <h3 className={Styles.work__name} >Выполненые работы:</h3>
                     <ul className={Styles.work__list}>
-                        <li className={`${Styles.work__text} ${Styles.work__text_type_element}`} >Что было сделано для достижение поставленной задачи</li>
-                        <li className={`${Styles.work__text} ${Styles.work__text_type_element}`} >Что было сделано для достижение поставленной задачи</li>
-                        <li className={`${Styles.work__text} ${Styles.work__text_type_element}`} >Что было сделано для достижение поставленной задачи</li>
+                        <li className={Styles.work__text} >Что было сделано для достижение поставленной задачи</li>
+                        <li className={Styles.work__text} >Что было сделано для достижение поставленной задачи</li>
+                        <li className={Styles.work__text} >Что было сделано для достижение поставленной задачи</li>
                     </ul>
                 </div>
                 <div className={Styles.work}>
