@@ -2,4 +2,35 @@
     width: 97vw;
     max-width: 1890px;
     margin: auto;
+    display: grid;
+    gap: 30px;
+}
+
+.services__title {
+    font-size: 1.8em;
+    font-weight: normal;
+    margin: 0;
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    gap: 25px;
+    justify-content: center;
+}
+
+.service {
+    max-width: 400px;
+}
+
+.service__type {
+    margin: 16px 0 13px;
+    font-weight: normal;
+    font-size: 1.3em;
+}
+
+.service__text {
+    margin: 0;
 }
