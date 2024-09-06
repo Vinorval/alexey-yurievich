@@ -10,7 +10,7 @@ const Navigation = () => {
             <a className={Styles.logo} >VA</a>
             <ul className={Styles.listLinks} >
                 <li className={Styles.link} >
-                    <p className={Styles.margin_none} >Программы1C</p>
+                    <p className={Styles.margin_none} >Программы 1C</p>
                     <img alt="стрелка вниз" className={Styles.link__arrow} src={Arrow} />
                     <ul className={Styles.link__namesList} >{
                         arrProducts.map((name, index) => <li key={index} className={Styles.product} >{name}</li>)
