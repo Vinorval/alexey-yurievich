@@ -1,15 +1,18 @@
 import './App.css';
 import AppHeader from '../appHeader/AppHeader';
-import Services from '../services/Services';
 import Form from '../form/Form';
-import Works from '../works/Works';
+import { Routes, Route } from 'react-router';
+import HomePage from '../../pages/HomePage';
 
 function App() {
   return (
     <div className="App">
       <AppHeader />
-      <Services />
-      <Works />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/услуги/:name" />
+        <Route path="продукт1С/:name" />
+      </Routes>
       <Form />
       <footer className="Footer" />
     </div>
