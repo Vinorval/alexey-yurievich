@@ -14,28 +14,16 @@ const Works = () => {
             </ul>
             <div className={Styles.experience} >
                 <div className={Styles.work}>
-                    <h3 className={Styles.work__name} >Задачи:</h3>
-                    <ul className={Styles.work__list}>
-                        <li className={Styles.work__text} >что-то требуется сделать</li>
-                        <li className={Styles.work__text} >что-то требуется сделать</li>
-                        <li className={Styles.work__text} >что-то требуется сделать</li>
-                    </ul>
-                </div>
-                <div className={Styles.work}>
-                    <h3 className={Styles.work__name} >Выполненые работы:</h3>
-                    <ul className={Styles.work__list}>
-                        <li className={Styles.work__text} >Что было сделано для достижение поставленной задачи</li>
-                        <li className={Styles.work__text} >Что было сделано для достижение поставленной задачи</li>
-                        <li className={Styles.work__text} >Что было сделано для достижение поставленной задачи</li>
-                    </ul>
-                </div>
-                <div className={Styles.work}>
-                    <h3 className={Styles.work__name} >Результат:</h3>
-                    <p className={Styles.work__text} >Вывод из проделонной работы и как выполнение задачи повлияло на работоспособность бизнеса/программы 1С</p>
-                </div>
-                <div className={Styles.work}>
                     <h3 className={Styles.work__name} >Период сотрудничества:</h3>
                     <p className={Styles.work__text} >01.01.2000 - 01.1.2000</p>
+                </div>
+                <div className={Styles.work}>
+                    <h3 className={Styles.work__name} >Что было сделано:</h3>
+                    <ul className={Styles.work__list}>
+                        <li className={Styles.work__text} >описание какого-либо действия</li>
+                        <li className={Styles.work__text} >описание какого-либо действия</li>
+                        <li className={Styles.work__text} >описание какого-либо действия</li>
+                    </ul>
                 </div>
             </div>
         </section>

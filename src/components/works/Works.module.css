@@ -1,9 +1,8 @@
 .works {
-    width: 97vw;
+    width: 92vw;
     margin: auto;
     display: grid;
     gap: 30px;
-    grid-template-columns: 350px calc(100% - 350px - 30px);
     max-width: 1890px;
 }
 
@@ -11,27 +10,29 @@
     margin: 0;
     font-weight: normal;
     font-size: 1.8em;
-    grid-column: 1/3;
+    text-align: start;
 }
 
 .company {
     margin: 0;
     padding: 0;
-    height: calc(40px * 5 + 12px * 4);
     list-style-type: none;
-    border-left: 5px solid;
-    border-image: linear-gradient(to bottom, #D3B268 0%, #FFEF00 100%) 1;
-    display: grid;
+    display: flex;
     text-align: start;
-    gap: 12px;
-    grid-template-rows: repeat(4, 40px);
+    gap: 40px;
+    row-gap: 12px;
+    flex-wrap: wrap;
 }
 
 .company__name {
-    padding-left: 12px;
-    border-bottom: 5px solid;
-    border-image: linear-gradient(to right, #D3B268 0%, #FFEF00 100%) 1;
     font-size: 1.3em;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    border-radius: 4px;
+    padding: 4px;
+    border: 3px solid;
+    border-image: linear-gradient(to right, #D3B268 0%, #DFD967 100%) 1;
 }
 
 .experience {
@@ -43,9 +44,10 @@
 .work {
     display: grid;
     gap: 6px;
+    padding: 0 1em;
 }
 
-.work:last-of-type {
+.work:first-of-type {
     display: flex;
     align-items: flex-end;
 }
