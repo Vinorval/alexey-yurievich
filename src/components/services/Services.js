@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import Styles from "./Services.module.css";
 
 import services from "../../utils/services";
@@ -16,7 +17,7 @@ const Services = () => {
                     return (
                         <li className={Styles.service} key={index} >
                             <h3 className={Styles.service__name} >{item.name}</h3>
-                            <button className={Styles.service__button} >Подробнее</button>
+                            <NavLink to="/услуги/" ><button className={Styles.service__button} >Подробнее</button></NavLink>
                         </li>
                     )
                 }) }
