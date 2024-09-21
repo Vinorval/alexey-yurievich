@@ -1,0 +1,30 @@
+.page {
+    width: 92vw;
+    margin: auto;
+    display: grid;
+    gap: 20px;
+    text-align: start;
+}
+
+.description {
+    font-size: 1.3em;
+    margin: 0;
+    border: 3px solid;
+    border-image: linear-gradient(to right, #D3B268 0%, #DFD967 100%) 1;
+    padding: 1.5em;
+    text-align: center;
+}
+
+.infoBlock__title {
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+.infoList {
+    display: grid;
+    gap: 5px;
+}
+
+.info {
+    font-size: 1.3em;
+}
