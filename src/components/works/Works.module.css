@@ -31,6 +31,9 @@
     height: 40px;
     border-radius: 4px;
     padding: 4px;
+}
+
+.company__name_active {
     border: 3px solid;
     border-image: linear-gradient(to right, #D3B268 0%, #DFD967 100%) 1;
 }
