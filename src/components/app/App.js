@@ -11,7 +11,7 @@ function App() {
       <AppHeader />
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/услуги/" element={<ServicePage />} />
+        <Route path="/services/:id" element={<ServicePage />} />
         <Route path="продукт1С/:name" />
       </Routes>
       <Form />
