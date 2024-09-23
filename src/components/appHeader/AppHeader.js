@@ -4,11 +4,12 @@ import Navigation from "../navigation/Navigation.js";
 import ButtonScroll from "../buttonScroll/ButtonScroll.js";
 import { useLocation } from "react-router";
 import services from "../../utils/services.js";
+import products from "../../utils/products.js";
 
 const AppHeader = () => {
     const location = useLocation();
     const nameServiceLink = location.pathname === '/' ? location.pathname : location.pathname.split("/")[2];
-    const item = nameServiceLink === '/' ? { name: "1С Программист", subName: "Более 20-ти лет работы в области разработки и поддержки программного обеспечения на базе 1С", } : services.find((item) => item.link === nameServiceLink && item);
+    const item = nameServiceLink === '/' ? { name: "1С Программист", subName: "Более 20-ти лет работы в области разработки и поддержки программного обеспечения на базе 1С", } : (services.find((item) => item.link === nameServiceLink && item) || products.find((item) => item.link === nameServiceLink && item) );
 
     return (
         <header className={Styles.header} >

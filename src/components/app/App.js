@@ -4,6 +4,7 @@ import Form from '../form/Form';
 import { Routes, Route } from 'react-router';
 import HomePage from '../../pages/HomePage';
 import ServicePage from '../../pages/ServicePage';
+import ProductPage from '../../pages/ProductPage';
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/services/:id" element={<ServicePage />} />
-        <Route path="продукт1С/:name" />
+        <Route path="/products/:name" element={<ProductPage />} />
       </Routes>
       <Form />
       <footer className="Footer" />
