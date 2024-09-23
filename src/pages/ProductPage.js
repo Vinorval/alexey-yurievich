@@ -10,7 +10,7 @@ const ProductPage = () => {
     return (
         <section>
             <div>
-                <img alt="фотография товара" />
+                <img alt="фотография товара" src={item.img} />
                 <p>{item.definition}</p>
             </div>
             <div>
