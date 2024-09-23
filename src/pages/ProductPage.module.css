@@ -1,0 +1,30 @@
+.info {
+    display: grid;
+    gap: 30px;
+    width: 92vw;
+    margin: auto;
+    text-align: start;
+    font-size: 1.3em;
+}
+
+.text {
+    margin: 0;
+    font-weight: normal;
+}
+
+.description {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.photo {
+    max-width: 400px;
+}
+
+.definition {
+    width: 65%;
+    padding: 2em;
+    border: 5px solid;
+    border-image: linear-gradient(to right, #D3B268 0%, #DFD967 100%) 1;
+}

@@ -3,8 +3,8 @@ import { NavLink } from "react-router-dom";
 import Styles from "./Navigation.module.css";
 import Logo1C from "../../images/logo1C.svg";
 import Arrow from "../../images/arrowDownWhite.svg";
-import { arrProducts, arrServices } from "../../utils/typesProducts";
 import services from "../../utils/services";
+import products from "../../utils/products";
 
 const Navigation = () => {
     return (
@@ -15,7 +15,7 @@ const Navigation = () => {
                     <p className={Styles.margin_none} >Программы 1C</p>
                     <img alt="стрелка вниз" className={Styles.link__arrow} src={Arrow} />
                     <ul className={Styles.link__namesList} >{
-                        arrProducts.map((name, index) => <li key={index} className={Styles.product} >{name}</li>)
+                        products.map((item, index) => <li key={index} ><NavLink to={`/products/${item.link}`} className={Styles.product} >{item.name}</NavLink></li>)
                     }</ul>
                 </li>
                 <li className={Styles.link} >
