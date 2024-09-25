@@ -25,10 +25,28 @@
     gap: 25px;
 }
 
+@media screen and (max-width: 1200px) {
+    .listLinks {
+        width: calc(100% - 60px - 180px - 100px);
+    }
+}
+
 .link {
     display: flex;
     gap: 4px;
     font-size: 0.8em;
+}
+
+@media screen and (max-width: 1200px) {
+    .link {
+        font-size: 0.7em;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .link__arrow {
+        width: 20px;
+    }
 }
 
 .link__namesList {
@@ -58,6 +76,18 @@
 
 .partner__logo {
     width: 80px;
+}
+
+@media screen and (max-width: 1200px) {
+    .partner__logo {
+        width: 60px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .partner__name {
+        font-size: 0.8em;
+    }
 }
 
 .margin_none {

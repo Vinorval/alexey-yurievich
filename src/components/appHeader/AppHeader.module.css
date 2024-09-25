@@ -65,6 +65,12 @@
   animation: gradient-fade-alt 6s ease-in-out 3s infinite alternate;
 }
 
+@media screen and (max-width: 1200px) {
+  .main:after {
+    display: none;
+  }
+}
+
 .main__textWrapper {
   position: relative;
   padding: 2em;
@@ -141,6 +147,12 @@
   right: 0;
   opacity: 0.3;
   animation: rotation 38s linear infinite;
+}
+
+@media screen and (max-width: 1200px) {
+  .dottedCircle {
+    display: none;
+  }
 }
 
 /*// animations*/
