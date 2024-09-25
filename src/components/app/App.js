@@ -11,9 +11,9 @@ function App() {
     <div className="App">
       <AppHeader />
       <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/services/:id" element={<ServicePage />} />
-        <Route path="/products/:name" element={<ProductPage />} />
+        <Route path="/alexey-yurievich" element={<HomePage />} />
+        <Route path="/alexey-yurievich/services/:id" element={<ServicePage />} />
+        <Route path="/alexey-yurievich/products/:name" element={<ProductPage />} />
       </Routes>
       <Form />
       <footer className="Footer" />

@@ -17,7 +17,7 @@ const Services = () => {
                     return (
                         <li className={Styles.service} key={index} >
                             <h3 className={Styles.service__name} >{item.name}</h3>
-                            <NavLink to={`/services/${item.link}`}><button className={Styles.service__button} >Подробнее</button></NavLink>
+                            <NavLink to={`/alexey-yurievich/services/${item.link}`}><button className={Styles.service__button} >Подробнее</button></NavLink>
                         </li>
                     )
                 }) }

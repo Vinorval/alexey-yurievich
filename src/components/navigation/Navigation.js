@@ -15,14 +15,14 @@ const Navigation = () => {
                     <p className={Styles.margin_none} >Программы 1C</p>
                     <img alt="стрелка вниз" className={Styles.link__arrow} src={Arrow} />
                     <ul className={Styles.link__namesList} >{
-                        products.map((item, index) => <li key={index} ><NavLink to={`/products/${item.link}`} className={Styles.product} >{item.name}</NavLink></li>)
+                        products.map((item, index) => <li key={index} ><NavLink to={`/alexey-yurievich/products/${item.link}`} className={Styles.product} >{item.name}</NavLink></li>)
                     }</ul>
                 </li>
                 <li className={Styles.link} >
                     <p className={Styles.margin_none} >Услуги</p>
                     <img alt="стрелка вниз" className={Styles.link__arrow} src={Arrow} />
                     <ul className={Styles.link__namesList} >{
-                        services.map((item, index) => <li key={index} ><NavLink to={`/services/${item.link}`} className={Styles.product} >{item.name}</NavLink></li>)
+                        services.map((item, index) => <li key={index} ><NavLink to={`/alexey-yurievich/services/${item.link}`} className={Styles.product} >{item.name}</NavLink></li>)
                     }</ul>
                 </li>
                 <li className={Styles.link} ><p className={Styles.margin_none} >Портфолио</p></li>
