@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "./static/css/main.8bab6dcb.css",
-    "main.js": "./static/js/main.6cf9894b.js",
-    "static/js/453.f5c97817.chunk.js": "./static/js/453.f5c97817.chunk.js",
-    "static/media/1СERP.png": "./static/media/1СERP.f2c0428f66d632841d76.png",
-    "static/media/1СБухгалтерия.png": "./static/media/1СБухгалтерия.9fd82df3536ae4c02e1f.png",
-    "static/media/1СПредприятие.png": "./static/media/1СПредприятие.60adcd45516afa742e66.png",
-    "static/media/1СДокументоборот.png": "./static/media/1СДокументоборот.75aec342de96a3ae0cf4.png",
-    "static/media/1СУправление торговлей.jpg": "./static/media/1СУправление торговлей.6f66399201af50a5b7f4.jpg",
-    "static/media/1СКомплексная автоматизация.jpg": "./static/media/1СКомплексная автоматизация.3b9613fc7cbbfec2345f.jpg",
-    "static/media/logo1C.svg": "./static/media/logo1C.072b60ab85b009015787d2471d6e81fe.svg",
-    "index.html": "./index.html",
-    "static/media/arrowDownWhite.svg": "./static/media/arrowDownWhite.ac2035d8ae9e1318b8f8e686e2b31c13.svg",
-    "main.8bab6dcb.css.map": "./static/css/main.8bab6dcb.css.map",
-    "main.6cf9894b.js.map": "./static/js/main.6cf9894b.js.map",
-    "453.f5c97817.chunk.js.map": "./static/js/453.f5c97817.chunk.js.map"
+    "main.css": "/alexey-yurievich/static/css/main.8bab6dcb.css",
+    "main.js": "/alexey-yurievich/static/js/main.5f73096a.js",
+    "static/js/453.f5c97817.chunk.js": "/alexey-yurievich/static/js/453.f5c97817.chunk.js",
+    "static/media/1СERP.png": "/alexey-yurievich/static/media/1СERP.f2c0428f66d632841d76.png",
+    "static/media/1СБухгалтерия.png": "/alexey-yurievich/static/media/1СБухгалтерия.9fd82df3536ae4c02e1f.png",
+    "static/media/1СПредприятие.png": "/alexey-yurievich/static/media/1СПредприятие.60adcd45516afa742e66.png",
+    "static/media/1СДокументоборот.png": "/alexey-yurievich/static/media/1СДокументоборот.75aec342de96a3ae0cf4.png",
+    "static/media/1СУправление торговлей.jpg": "/alexey-yurievich/static/media/1СУправление торговлей.6f66399201af50a5b7f4.jpg",
+    "static/media/1СКомплексная автоматизация.jpg": "/alexey-yurievich/static/media/1СКомплексная автоматизация.3b9613fc7cbbfec2345f.jpg",
+    "index.html": "/alexey-yurievich/index.html",
+    "static/media/logo1C.svg": "/alexey-yurievich/static/media/logo1C.072b60ab85b009015787d2471d6e81fe.svg",
+    "static/media/arrowDownWhite.svg": "/alexey-yurievich/static/media/arrowDownWhite.ac2035d8ae9e1318b8f8e686e2b31c13.svg",
+    "main.8bab6dcb.css.map": "/alexey-yurievich/static/css/main.8bab6dcb.css.map",
+    "main.5f73096a.js.map": "/alexey-yurievich/static/js/main.5f73096a.js.map",
+    "453.f5c97817.chunk.js.map": "/alexey-yurievich/static/js/453.f5c97817.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8bab6dcb.css",
-    "static/js/main.6cf9894b.js"
+    "static/js/main.5f73096a.js"
   ]
 }
