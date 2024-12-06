@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/alexey-yurievich/static/css/main.f046b8d6.css",
-    "main.js": "/alexey-yurievich/static/js/main.cd0be6a2.js",
+    "main.css": "/alexey-yurievich/static/css/main.8bab6dcb.css",
+    "main.js": "/alexey-yurievich/static/js/main.400bc98f.js",
     "static/js/453.f5c97817.chunk.js": "/alexey-yurievich/static/js/453.f5c97817.chunk.js",
     "static/media/1СERP.png": "/alexey-yurievich/static/media/1СERP.f2c0428f66d632841d76.png",
     "static/media/1СБухгалтерия.png": "/alexey-yurievich/static/media/1СБухгалтерия.9fd82df3536ae4c02e1f.png",
@@ -12,12 +12,12 @@
     "index.html": "/alexey-yurievich/index.html",
     "static/media/logo1C.svg": "/alexey-yurievich/static/media/logo1C.072b60ab85b009015787d2471d6e81fe.svg",
     "static/media/arrowDownWhite.svg": "/alexey-yurievich/static/media/arrowDownWhite.ac2035d8ae9e1318b8f8e686e2b31c13.svg",
-    "main.f046b8d6.css.map": "/alexey-yurievich/static/css/main.f046b8d6.css.map",
-    "main.cd0be6a2.js.map": "/alexey-yurievich/static/js/main.cd0be6a2.js.map",
+    "main.8bab6dcb.css.map": "/alexey-yurievich/static/css/main.8bab6dcb.css.map",
+    "main.400bc98f.js.map": "/alexey-yurievich/static/js/main.400bc98f.js.map",
     "453.f5c97817.chunk.js.map": "/alexey-yurievich/static/js/453.f5c97817.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f046b8d6.css",
-    "static/js/main.cd0be6a2.js"
+    "static/css/main.8bab6dcb.css",
+    "static/js/main.400bc98f.js"
   ]
 }
